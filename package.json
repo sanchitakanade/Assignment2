@@ -1,0 +1,31 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "CS648 Full Stack Web Development assignment2 ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchitakanade/assignment2.git"
+  },
+  "author": "Sanchita Kanade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchitakanade/assignment2/issues"
+  },
+  "homepage": "https://github.com/sanchitakanade/assignment2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-react": "^7.8.3"
+  }
+}
